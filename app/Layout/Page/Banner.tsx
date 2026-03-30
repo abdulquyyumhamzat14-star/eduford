@@ -40,8 +40,12 @@ const Banner = () => {
 
             {/* Button */}
             <div className="flex justify-center mt-8">
-              <button className="flex animate-fadeUp items-center gap-3 bg-white text-black rounded-full px-6 py-3 font-medium hover:bg-gray-200 transition">
-                Explore More <MoveRight className="" size={20} />
+              <button className=" group  duration-300 flex animate-fadeUp items-center gap-3 bg-white text-black rounded-full px-6 py-3 font-medium hover:bg-gray-200 transition">
+                Explore More{" "}
+                <MoveRight
+                  className="group-hover:translate-x-2 transition-transform duration-300"
+                  size={20}
+                />
               </button>
             </div>
           </div>

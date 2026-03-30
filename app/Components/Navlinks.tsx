@@ -42,7 +42,7 @@ const Navlinks = () => {
 
           <li>
             <Link
-              href="/signup"
+              href="/contact"
               className="px-5 py-2 bg-white text-black rounded-2xl hover:bg-blue-600 hover:text-white transition"
             >
               Contact Us
